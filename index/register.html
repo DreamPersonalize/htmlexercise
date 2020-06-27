@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>用户登录</title>
+	<meta charset = "utf-8" />
+	<meta name="viewport" content="width = device-width, initial-scale=1.0" />
+	<link href="../CSS/bootstrap.min.css" rel="stylesheet" />
+	<link href="../CSS/about.css" rel="stylesheet" />
+</head>
+
+<body>
+		<nav class="navbar navbar-expand-md bg-light navbar-light">
+	  <!-- Brand -->
+	  <a class="navbar-brand" href="#">怀化市特殊教育学校</a>
+	 
+	  <!-- Toggler/collapsibe Button -->
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+	 
+	  <!-- Navbar links -->
+	  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		<ul class="navbar-nav ">
+		  <li class="nav-item">
+			<a class="nav-link" href="index.html">网站首页</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="survey.html">学校概况</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="news.html">校园快讯</a>
+		  </li> 
+		  <li class="nav-item">
+			<a class="nav-link" href="scientific.html">教学科研</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="exercise.html">课程活动</a>
+		  </li>
+		</ul>
+	  </div> 
+	</nav>
+	
+	<div class="register_bgimg">
+		<div class="d-flex flex-row">
+			<a href="login.html"><button class="btn btn-info">登录</button></a>
+		</div>
+		<div class="d-flex   text-white justify-content-center align-content-center">
+			<form class="login_ZC">
+				<div class="d-flex justify-content-start  input-group-sm login_input">
+				<label for="email" class="login_label ">账号:</label>
+				<input type="text" class="form-control" id="email">
+			  </div>
+			  <div class="d-flex justify-content-start   input-group-sm login_input">
+				<label for="pwd" class="login_label  ml-auto">密码:</label>
+				<input type="password" class="form-control" id="pwd">
+			  </div>
+			  <div class="d-flex justify-content-start  input-group-sm login_input">
+				<label for="pwd" class="login_label  ml-auto">确认密码:</label>
+				<input type="password" class="form-control" id="pwd">
+			  </div>
+			  <div class="d-flex justify-content-start input-group-sm login_input">
+				<label for="text" class="login_label  ml-auto">昵称:</label>
+				<input type="text" class="form-control" id="pwd" >
+			  </div>
+			  <div class="d-flex justify-content-start input-group-sm login_input">
+			  	<label class="login_label ">性别:</label>
+				<div class="radio register_left">
+				  <label><input type="radio" name="optradio" >男</label>
+				</div>
+				<div class="radio register_left">
+				  <label><input type="radio" name="optradio">女</label>
+				</div>
+
+			  </div>
+			  <div class="d-flex justify-content-start">
+			  	<label class="login_label">个人兴趣:</label>
+				 <div class="form-check">
+					  <label class="form-check-label register_left">
+						<input type="checkbox" class="form-check-input" value="">学习
+					  </label>
+				</div>
+				<div class="form-check">
+					  <label class="form-check-label register_left">
+						<input type="checkbox" class="form-check-input" value="">打篮球
+					  </label>
+				</div>
+				<div class="form-check">
+					  <label class="form-check-label register_left">
+						<input type="checkbox" class="form-check-input" value="">跑步
+					  </label>
+				</div>
+				<div class="form-check">
+					  <label class="form-check-label register_left">
+						<input type="checkbox" class="form-check-input" value="">唱歌
+					  </label>
+				</div>
+			  </div>
+			  
+			  <div class="d-flex justify-content-center  input-group-sm login_input">
+				<label for="email" class="login_label ">邮箱地址:</label>
+				<input type="email" class="form-control" id="email">
+  			  </div>
+			  <button type="button" class="btn btn-block btn-success" >注册</button>
+			  
+			</form>
+		</div>
+	</div>
+	
+	<script src="../js/jquery-3.3.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+</body>
+
+</html>
